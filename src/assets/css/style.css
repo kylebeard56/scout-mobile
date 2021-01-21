@@ -1313,6 +1313,39 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Donate
+--------------------------------------------------------------*/
+a.coffee:link {
+	font-size: 1em;
+	font-family: 'Nunito' !important;
+	color: rgb(130, 93, 70);
+	text-decoration: none;
+}
+a.coffee:visited {
+	font-size: 1em;
+	font-family: 'Nunito' !important;
+	color: rgb(130, 93, 70);
+	text-decoration: none;
+}
+a.coffee:hover {
+	font-size: 1em;
+	font-family: 'Nunito' !important;
+	color: rgb(130, 93, 70);
+	text-decoration: underline;
+}
+.donate-btn {
+  display: inline-block;
+	width: 100%;
+	max-width: 16em;
+}
+
+@media (max-width: 768px) {
+  .donate-btn {
+    padding: 20px 0 0 0;
+  }
+}
+
+/*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq .faq-list {
